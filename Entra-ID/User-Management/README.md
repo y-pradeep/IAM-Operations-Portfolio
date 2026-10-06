@@ -10,6 +10,6 @@ This section contains user lifecycle management procedures and operational activ
 - Delete User
 - Restore User
 - Bulk User Creation
-- License Assignment 
+- License Assignment
 
 
