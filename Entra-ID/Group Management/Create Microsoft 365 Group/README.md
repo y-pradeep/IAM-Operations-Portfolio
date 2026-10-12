@@ -42,22 +42,15 @@ Select:
 - Membership type: Assigned
 <img width="1908" height="947" alt="image" src="https://github.com/user-attachments/assets/8bdd9134-6ce8-428c-aee9-69e985855bfb" />
 
-### Step 4: Configure Privacy
-
-Select the required privacy setting:
-
-- Public
-- Private
-
-### Step 5: Add Owner and Members
+### Step 4: Add Owner and Members
 
 Select the required group owner and members.
 
-### Step 6: Create the Group
+### Step 5: Create the Group
 
 Select Create.
 
-### Step 7: Verify
+### Step 6: Verify
 
 Verify that the Microsoft 365 Group has been successfully created and that the configured owner and members are present.
 <img width="1905" height="947" alt="image" src="https://github.com/user-attachments/assets/e9c88a13-08ac-4b16-b9e4-29be162d4ec0" />
