@@ -19,6 +19,4 @@ This section contains group lifecycle management procedures and operational acti
 
 - Create Dynamic Group
 
-- Configure Dynamic Membership Rules
-
 - Assign License to Group
