@@ -1,29 +1,28 @@
-# Configure Self-Service Password Reset (SSPR) Authentication Methods in Microsoft Entra ID
+# Authentication in Microsoft Entra ID
+
+## Overview
+
+Authentication in Microsoft Entra ID verifies the identity of users before granting access to organizational applications and resources. It supports secure access through Multi-Factor Authentication (MFA), passwordless authentication, and policy-based authentication controls.
+
+This section covers L2 IAM configuration tasks for managing authentication methods, strengthening identity security, and enforcing authentication requirements across the organization.
+
+## Tasks Covered
+
+1. Configure Authentication Methods Policy – Manage and enable authentication methods available to users.
+2. Enable Microsoft Authenticator – Configure Microsoft Authenticator for MFA and supported passwordless sign-in methods.
+3. Configure Temporary Access Pass (TAP) – Configure a time-limited passcode to support secure authentication method registration and recovery.
+4. Configure FIDO2 Security Keys – Enable security key authentication for phishing-resistant sign-in.
+5. Configure Passwordless Authentication – Configure supported passwordless authentication methods to reduce reliance on passwords.
+6. Configure Authentication Strength – Define authentication requirements based on the organization's security policies.
+7. Configure Conditional Access MFA Requirements – Enforce MFA for users, applications, and scenarios based on Conditional Access policies.
+8. Configure MFA Registration Campaign – Encourage users to register Microsoft Authenticator for improved authentication security.
+9. Configure Certificate-Based Authentication (CBA) – Configure certificate-based sign-in for supported users and scenarios.
+10. Configure Self-Service Password Reset (SSPR) Authentication Methods – Configure authentication methods that users can use to verify their identity and reset forgotten passwords.
 
 ## Objective
 
-To configure the methods users can use to verify their identity when resetting passwords through Self-Service Password Reset.
+To implement and manage secure authentication configurations in Microsoft Entra ID, strengthen identity protection, and ensure authentication policies align with organizational security requirements.
 
-## Business Requirement
+## Scope
 
-SSPR allows eligible users to reset forgotten passwords without contacting IT support while maintaining identity verification requirements.
-
-## Pre-requisites
-
-- Access to the Microsoft Entra admin center.
-- Appropriate permissions to manage password reset settings.
-- Licensing appropriate to the organization's SSPR requirements.
-- Target users or groups identified.
-- Approved password reset and verification requirements.
-- Required verification methods enabled and available to users.
-
-## Steps of the Task
-
-1. Navigate to **Microsoft Entra ID → Password reset**.
-2. Open **Properties** and configure the users or groups allowed to use SSPR.
-3. Select **Authentication methods**.
-4. Configure permitted methods and the number of methods users must provide to reset passwords.
-5. Save the configuration.
-6. Review registration settings and configure registration requirements as appropriate.
-7. Test with an eligible test account and verify that configured verification requirements are enforced.
-
+This documentation focuses on L2 IAM configuration activities, including authentication method management, MFA enforcement, passwordless authentication, and authentication policy configuration.
