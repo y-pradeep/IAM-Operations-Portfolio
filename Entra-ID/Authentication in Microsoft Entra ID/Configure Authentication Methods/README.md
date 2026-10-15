@@ -24,7 +24,8 @@ Organizations need centralized control over authentication methods to strengthen
 
 4. Review the available authentication methods.
 5. Enable the required authentication methods based on business requirements.
-   <img width="1920" height="958" alt="image" src="https://github.com/user-attachments/assets/d79bc8d3-5744-45a9-80f5-5bd8db681f47" />
+   <img width="1905" height="947" alt="image" src="https://github.com/user-attachments/assets/8911df63-6344-495f-b5fb-665eacd88a18" />
+
 
 6. Assign the policy to specific users or groups.
     <img width="1908" height="950" alt="image" src="https://github.com/user-attachments/assets/9b1fb156-d17d-467a-99c1-0898889ae6e9" />
